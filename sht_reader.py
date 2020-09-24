@@ -12,7 +12,7 @@ except ImportError as e:
     sys.exit(1)
 
 sht_files_path = "sht/"
-SigROI = [18, 19, 20, 26, 55]
+SigROI = [80, 50, 15]
 SHT_NUMBER_ARRAY = [38215]
 
 # Function that saves files with the specified names and format

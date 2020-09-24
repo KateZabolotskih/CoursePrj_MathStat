@@ -87,13 +87,13 @@ def read_xlsx_file(file_name):
     workbook = xlrd.open_workbook(file_name)
     # selecting a page to read by index
     worksheet = workbook.sheet_by_index(0)
-    getData_byNum(NUM_OF_DISCHARGES, worksheet)
+    #getData_byNum(NUM_OF_DISCHARGES, worksheet)
     getData_byDis(DISCHARGE, worksheet)
 
     # You can go through the list of discharges
     #for dis in DISCHARGES:
     #   getData_byDis(dis)
 
-
 if __name__ == '__main__':
     read_xlsx_file(xlsx_files_path + "TS_results" + ".xlsx")
+
